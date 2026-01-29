@@ -8,4 +8,4 @@ service:
   type: ClusterIP
   port: 80
 
-message: "whats it to ya"
+message: "testing testing"
