@@ -8,4 +8,4 @@ service:
   type: ClusterIP
   port: 80
 
-message: "more testing"
+message: "update via gitops push live"
