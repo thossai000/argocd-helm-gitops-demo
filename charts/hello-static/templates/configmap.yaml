@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "hello-static.fullname" . }}-html
+data:
+  index.html: |
+    <!doctype html>
+    <html>
+      <head><title>Hello GitOps</title></head>
+      <body style="font-family: sans-serif;">
+        <h1>{{ .Values.message }}</h1>
+        <p>Rendered by Helm, reconciled by Argo CD.</p>
+      </body>
+    </html>
