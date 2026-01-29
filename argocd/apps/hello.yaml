@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/YOUR_GITHUB_USER/YOUR_REPO.git
+    repoURL: https://github.com/thossai000/argocd-helm-gitops-demo.git
     targetRevision: main
     path: charts/hello-static
     helm:

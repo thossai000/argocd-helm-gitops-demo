@@ -8,4 +8,4 @@ service:
   type: ClusterIP
   port: 80
 
-message: "Hello from GitOps (Argo CD + Helm) running in GitHub Codespaces!"
+message: "its 1/27 today, kind of chilly though. Luna the cat is awesome"
