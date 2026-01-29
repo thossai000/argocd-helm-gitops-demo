@@ -8,4 +8,4 @@ service:
   type: ClusterIP
   port: 80
 
-message: "its 1/27 today, kind of chilly though. Luna the cat is awesome"
+message: "this is a cool test of our helm"
