@@ -14,7 +14,7 @@ spec:
       values: |
         # Keep it lighter for Codespaces
         alertmanager:
-          enabled: true
+          enabled: false
 
         grafana:
           enabled: true
